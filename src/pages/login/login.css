@@ -1,0 +1,28 @@
+.login{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.username{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.username:focus{
+    outline: none;
+}
+
+.sub{
+    width: 60%;
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
